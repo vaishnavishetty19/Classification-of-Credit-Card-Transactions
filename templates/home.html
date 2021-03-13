@@ -1,0 +1,60 @@
+<html>
+    <body background= "static\pexels-aleksandar-pasaric-325185.jpg">
+       <style>
+            p:hover, h1:hover, a:hover {
+              background-color: rgb(255, 230, 0);
+            }
+            body{
+            background-position: center;
+          
+            }
+            </style>
+        <center>
+  
+        <h1> Classification Of Credit Card Transaction </h1><br>
+
+        
+        <form method="POST", action="{{url_for('home')}}" autocomplete="on">
+           <b> V1 :  <input type="number", step="0.000001", name='a', placeholder="enter 1"> 
+               V2 :  <input type="number", step="0.000001", name='b', placeholder="enter 2"> <br>
+               V3 :  <input type="number", step="0.000001", name='c', placeholder="enter 3"> 
+               V4 :  <input type="number", step="0.000001", name='d', placeholder="enter 4"> <br>
+               V5 :  <input type="number", step="0.000001", name='e', placeholder="enter 5"> 
+               V6 :  <input type="number", step="0.000001", name='f', placeholder="enter 6"> <br>
+               V7 :  <input type="number", step="0.000001", name='g', placeholder="enter 7"> 
+               V8 :  <input type="number", step="0.000001", name='h', placeholder="enter 8"> <br>
+               V9 :  <input type="number", step="0.000001", name='i', placeholder="enter 9">
+               V10:  <input type="number", step="0.000001", name='j', placeholder="enter 10"> <br>
+               V11:  <input type="number", step="0.000001", name='k', placeholder="enter 11"> 
+               V12:  <input type="number", step="0.000001", name='l', placeholder="enter 12"> <br>
+               V13:  <input type="number", step="0.000001", name='m', placeholder="enter 13">
+               V14:  <input type="number", step="0.000001", name='n', placeholder="enter 14"> <br>
+               V15:  <input type="number", step="0.000001", name='o', placeholder="enter 15"> 
+               V16:  <input type="number", step="0.000001", name='p', placeholder="enter 16"> <br>
+               V17:  <input type="number", step="0.000001", name='q', placeholder="enter 17"> 
+               V18:  <input type="number", step="0.000001", name='r', placeholder="enter 18"> <br>
+               V19:  <input type="number", step="0.000001", name='s', placeholder="enter 19"> 
+               V20:  <input type="number", step="0.000001", name='t', placeholder="enter 20"> <br>
+               V21:  <input type="number", step="0.000001", name='u', placeholder="enter 21"> 
+               V22:  <input type="number", step="0.000001", name='v', placeholder="enter 22"> <br>
+               V23:  <input type="number", step="0.000001", name='w', placeholder="enter 23"> 
+               V24:  <input type="number", step="0.000001", name='x', placeholder="enter 24"> <br>
+               V25:  <input type="number", step="0.000001", name='y', placeholder="enter 25"> 
+               V26:  <input type="number", step="0.000001", name='z', placeholder="enter 26"> <br>
+               V27:  <input type="number", step="0.000001", name='A', placeholder="enter 27">
+               V28:  <input type="number", step="0.000001", name='B', placeholder="enter 28"> <br><br>
+             average:<input type="number", step="0.000001", name='C', placeholder="enter avg"> <br><br> 
+               time: <input type="number", step="0.000001", name='D', placeholder="enter time"> <br><br>
+     time_difference:<input type="number", step="0.000001", name='E', placeholder="enter time-diff"><br><br>
+            Amount:  <input type="number", step="0.000001", name='F', placeholder="enter amount"> <br><br>
+             cond:   <input type="number", step="0.000001", name='G', placeholder="enter condition"> <br><br>
+               min:  <input type="number", step="0.000001", name='H', placeholder="enter min"> <br><br>
+             
+            <input type="submit" , value='predict!' >
+        </form>
+
+        
+    </center>
+
+    </body>
+</html>
