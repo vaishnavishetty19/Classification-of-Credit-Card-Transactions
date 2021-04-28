@@ -1,0 +1,50 @@
+<html>
+    <body background= "static\photo-1537724326059-2ea20251b9c8.jpg">
+       <style>
+            
+            body{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 3100px 1200px;
+          
+            }
+
+            .center {
+          position: fixed;
+         left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: rgb(24, 160, 214);
+          color: white;
+          font-size:20px;
+          text-align: center;
+            }
+        
+
+            </style>
+        <center>
+ 
+        <h1 style="color:rgb(219, 38, 129);font-size:47px;font-family: Verdana, Geneva, Tahoma, sans-serif;background-color: rgb(26, 25, 25); font-style: italic;">Classification Of Credit Card Transactions </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}" autocomplete="on">
+
+          <h2 style="color:rgba(235, 27, 155, 0.932);font-size:30px;font-family: serif;"h2></br>
+          
+          
+           <b>time_difference:<input type="number", step="0.000001", name='E', placeholder="enter time-diff"><br><br>
+            Amount:  <input type="number", step="0.000001", name='F', placeholder="enter amount"><br><br> 
+             cond:   <input type="number", step="0.000001", name='G', placeholder="enter condition"> <br><br>
+             time: <input type="number", step="0.000001", name='D', placeholder="enter time"> <br><br>
+             min:   <input type="number", step="0.000001", name='H', placeholder="enter min"><br><br>
+          
+               <input type="submit" value="PREDICT!" style="font-size: 30px;">
+            
+        </form>
+    </center>
+    <footer>
+        <div class="center">
+            Copyright &copy; Classification of credit card transactions.. All rights reserved!
+        </div>
+    </footer>
+    </body>
+</html>
